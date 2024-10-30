@@ -1,0 +1,83 @@
+/* Basic reset and styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Container styling */
+.container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+}
+
+/* Headings and text styling */
+h1 {
+    font-size: 2.5rem;
+    color: #6a11cb;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #2575fc;
+}
+
+p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Button styling */
+button, input[type="submit"] {
+    background-color: #2575fc;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 1rem;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #1a5bb6;
+}
+
+/* Input field styling */
+input[type="text"] {
+    width: 80%;
+    padding: 0.8rem;
+    margin: 1rem 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Link styling */
+a {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #2575fc;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #1a5bb6;
+}
